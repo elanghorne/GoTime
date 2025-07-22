@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8072B1442E2FE90000DEF441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072B1412E2FE90000DEF441 /* ContentView.swift */; };
+		8072B1452E2FE90000DEF441 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072B13F2E2FE90000DEF441 /* AppColor.swift */; };
+		8072B1462E2FE90000DEF441 /* GoTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072B1422E2FE90000DEF441 /* GoTimeApp.swift */; };
+		8072B1472E2FE90000DEF441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8072B1402E2FE90000DEF441 /* Assets.xcassets */; };
+		8072B14A2E2FF84E00DEF441 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072B1492E2FF84E00DEF441 /* SettingsModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8072B12A2E2FD24A00DEF441 /* GoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8072B13F2E2FE90000DEF441 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		8072B1402E2FE90000DEF441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8072B1412E2FE90000DEF441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8072B1422E2FE90000DEF441 /* GoTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoTimeApp.swift; sourceTree = "<group>"; };
+		8072B1492E2FF84E00DEF441 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8072B12C2E2FD24A00DEF441 /* GoTime */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GoTime;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8072B1272E2FD24A00DEF441 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		8072B1212E2FD24A00DEF441 = {
 			isa = PBXGroup;
 			children = (
-				8072B12C2E2FD24A00DEF441 /* GoTime */,
+				8072B1432E2FE90000DEF441 /* GoTime */,
 				8072B12B2E2FD24A00DEF441 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,34 @@
 				8072B12A2E2FD24A00DEF441 /* GoTime.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8072B13E2E2FE90000DEF441 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8072B1412E2FE90000DEF441 /* ContentView.swift */,
+				8072B13F2E2FE90000DEF441 /* AppColor.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8072B1432E2FE90000DEF441 /* GoTime */ = {
+			isa = PBXGroup;
+			children = (
+				8072B1402E2FE90000DEF441 /* Assets.xcassets */,
+				8072B1422E2FE90000DEF441 /* GoTimeApp.swift */,
+				8072B1482E2FE90900DEF441 /* Models */,
+				8072B13E2E2FE90000DEF441 /* Views */,
+			);
+			path = GoTime;
+			sourceTree = "<group>";
+		};
+		8072B1482E2FE90900DEF441 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8072B1492E2FF84E00DEF441 /* SettingsModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8072B12C2E2FD24A00DEF441 /* GoTime */,
 			);
 			name = GoTime;
 			packageProductDependencies = (
@@ -109,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8072B1472E2FE90000DEF441 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8072B14A2E2FF84E00DEF441 /* SettingsModel.swift in Sources */,
+				8072B1442E2FE90000DEF441 /* ContentView.swift in Sources */,
+				8072B1452E2FE90000DEF441 /* AppColor.swift in Sources */,
+				8072B1462E2FE90000DEF441 /* GoTimeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
